@@ -121,6 +121,8 @@ const ne=(e,t)=>"method"===t.kind&&t.descriptor&&!("value"in t.descriptor)?{...t
     margin-top: 4px;
     margin-left: 24px;
     line-height: 1.3;
+    text-align: end;
+    width: 65%;
   }
 
   clock-weather-card-today-bottom-right-top {
@@ -199,7 +201,7 @@ const ne=(e,t)=>"method"===t.kind&&t.descriptor&&!("value"in t.descriptor)?{...t
   }
 
   aqi {
-    padding: 4px;
+    padding: 2px 4px 2px 4px;
     border-radius: 5px;
   }
 `
