@@ -117,7 +117,7 @@ const ne=(e,t)=>"method"===t.kind&&t.descriptor&&!("value"in t.descriptor)?{...t
   }
 
   clock-weather-card-today-bottom-right {
-    font-size: x-large;
+    font-size: large;
     margin-top: 4px;
     margin-left: 24px;
     line-height: 1.3;
@@ -126,7 +126,7 @@ const ne=(e,t)=>"method"===t.kind&&t.descriptor&&!("value"in t.descriptor)?{...t
   }
 
   clock-weather-card-today-bottom-right-top {
-    font-size: xx-large;
+    font-size: xxx-large;
   }
 
   clock-weather-card-forecast {
